@@ -3,27 +3,34 @@ body {
 }
 
 .searchbox {
-    margin: auto;
-    height: 2em;
+    margin-left: -45%;
+    height: 20px;
+    width: 521px;
     line-height: 2em;
 }
 
 .searcharea {
     margin: auto;
     width: 20%;
+    padding-top: 30px;
 }
 
 .button {
     margin: auto;
-    width: 95px;
-    height: 30px;
-    line-height: 27px;
+    width: 94px;
+    height: 29px;
     display: inline;
+    border-radius: 1px;
+    text-align: center;
+}
+
+#lucky {
+    width: 114px;
 }
 
 .buttons {
     margin: auto;
-    width: 20%;
+    width: 15%;
     padding-top: 10px;
 }
 
@@ -35,4 +42,33 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.footer {
+    height: 40px;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+    float: bottom;
+    color: #777;
+    bottom: 100%;
+}
+
+.footer_text_left {
+    display: inline;
+    float: left;
+}
+
+.footer_text_right {
+    display: inline;
+    float: right;
+}
+
+.footer_item {
+    padding-left: 27px;
+    text-decoration: none;
+    top: -50%;
+}
+
+a:visited {
+    color: #777;
 }
